@@ -1,0 +1,51 @@
+.Api {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 2rem 2rem 0;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.ApiContent {
+}
+
+.ApiHeader {
+  color: #ec5f67;
+  font-family: monospace;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.ApiSubHeader {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #537f7e;
+}
+
+.ApiPropList {
+}
+
+.ApiPropType {
+  line-height: 2rem;
+}
+
+.ApiPropType {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.ApiPropDefinition {
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.CodeBlockWrapper {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background: #263238; /* Codemirror theme */
+}

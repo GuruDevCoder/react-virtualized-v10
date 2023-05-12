@@ -1,0 +1,9 @@
+{
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "env": {
+    "mocha": true
+  },
+  "globals": {
+    "expect": true
+  }
+}
